@@ -1,6 +1,6 @@
 # Native API Shellcode Injector
 
-A program that utilizes the Windows Native API to inject shellcode into a foreign process.
+A program that utilizes the Windows Native API to inject shellcode into another process. 
 
 ## Installation
 
