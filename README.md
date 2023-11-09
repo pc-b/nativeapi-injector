@@ -24,10 +24,17 @@ msfvenom -p windows/x64/exec CMD=calc.exe -f c --var-name=payload
 ```
 
 ## POC
+[Virustotal scan:](https://www.virustotal.com/gui/file/955a99732c9fccd9a5ea146e41598b5495e6390d87466c0ed03dc9f522a783c1/detection)
+
+![scan](https://i.imgur.com/8OWqXuE.png)
 
 Here is a gif showing the injector in use, with the shellcode to spawn a calculator:
 
 ![gif](https://i.imgur.com/UiF65AG.gif)
+
+Another gif showing the injector, but with a reverse tcp shell shellcode:
+
+![gif](https://i.imgur.com/cmpQ2vw.gif)
 
 ## Acknowledgments / Resources
 - [crow](https://github.com/cr-0w)
