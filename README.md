@@ -36,6 +36,12 @@ Another gif showing the injector, but with a reverse tcp shell shellcode:
 
 ![gif](https://i.imgur.com/cmpQ2vw.gif)
 
+## Next Steps
+
+A virustotal score of only 23 vendors detecting this program is pretty good, but some ways it could be improved:
+- Encrypt the payload
+- Use XOR to encrypt function names
+
 ## Acknowledgments / Resources
 - [crow](https://github.com/cr-0w)
 - [MSDN](https://learn.microsoft.com/en-us/docs/)
